@@ -75,21 +75,21 @@ section{
 
 section .section-content h3{
     color: rgb(0, 0, 0);
-    font-size: 100px;
+    font-size: 160px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 section .section-content h4{
     color:rgb(0, 0, 0);
-    font-size: 50px;
+    font-size: 150px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: Center;
 }
 
 section .section-content ul{
     color:rgb(0, 0, 0);
-    font-size: 45px;
+    font-size: 55px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
