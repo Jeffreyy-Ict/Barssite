@@ -73,26 +73,57 @@ section{
     margin-right: 0%;
 }
 
-section .section-content h1{
+section .section-content h3{
     color: rgb(0, 0, 0);
-    font-size: 100px;
+    font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-section .section-content h2{
-    color:rgb(3, 3, 3);
-    font-size: 55px;
+section .section-content p{ 
+    margin-left: 25px;
+    margin-right: 25px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 section img{
-    height: 600px;
-    width: 1000px;
+    height: 500px;
+    width: 700px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Button Styles */
+.responsive-button {
+    background-color: #05998c;  /* Button color */
+    color: white;               /* Text color */
+    padding: 15px 25px;         /* Padding inside the button */
+    font-size: 18px;            /* Font size for the text */
+    border: none;               /* Remove border */
+    border-radius: 5px;         /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    width: 100%;                /* Button width will be 100% of its container */
+    max-width: 350px;           /* Max width to avoid the button becoming too large */
+    margin: 10px auto;          /* Center the button and add margin */
+    display: block;             /* Make the button block level */
+    text-align: center;         /* Center text inside the button */
+}
+
+/* Button hover effect */
+.responsive-button:hover {
+    background-color: #047a74;  /* Darker shade when hovering */
+}
+
+/* For small devices like mobile */
+@media (max-width: 768px) {
+    .responsive-button {
+        font-size: 16px;   /* Smaller font size on mobile */
+        padding: 12px 20px; /* Adjust padding for smaller screens */
+    }
 }
 
 footer{
@@ -111,11 +142,11 @@ footer{
 
 .footer-col h4{
     margin-bottom: 1px;
-    font-size: 30px
+    font-size: 30px;
 }
 
 .footer-col ul{
-    font-size: 20px;
+    font-size:  20px;
     list-style: none;
     padding: 0;
 }
@@ -152,5 +183,4 @@ footer{
 .footer-col button:hover{
     background: antiquewhite;
 }
-
-
+    
